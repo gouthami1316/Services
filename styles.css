@@ -1,0 +1,105 @@
+body,html{
+	padding: 0px;
+	height: 800px;
+	margin:0;
+	font-size: 15px;
+}
+.bg{
+	height:100%;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+}
+.nav-link{
+	color: ghostwhite;
+	padding-right:25px;
+	padding-left:25px;
+}
+.nav-link:hover{
+	color : white;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+div.container{
+	float: left;
+	background-color: #000000;
+	opacity: 0.8;
+	position: relative;
+	width : 75%;
+	height: 55px;
+	top : 30px;
+	left: 200px;
+}
+div.container-fluid{
+	float: left;
+	background-color: #000000;
+	opacity: 0.8;
+	position: relative;
+	width : 75%;
+	height: 450px;
+	top : 70px;
+	left: 200px;
+}
+
+div.box{
+	float: left;
+	background-color: #000000;
+	opacity: .5;
+	position: relative;
+	width : 75%;
+	height: 25px;
+	top : 90px;
+	left: 200px;
+}
+.img{
+	height: 100px;
+	width: 170px;
+	float: left;
+	position: absolute;
+	top: 40px;
+	left : 240px;
+}
+ul.nav{
+	margin-top: 8px;
+}
+.row{
+	margin: 0px;
+	margin-top: 25px;
+}
+#img2{
+	margin-bottom: 25px;
+	height: 17%;
+}
+.col-9{
+	color: white;
+}
+div.box3{
+	border-top: 1px solid #8a8a8a;
+	border-bottom: 1px solid #8a8a8a ;
+	height: 80px;
+	width: 100%;
+}
+div.box4{
+	text-decoration: underline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #8a8a8a;
+	border-bottom: 1px solid #8a8a8a;
+	width:100%;
+}
+.con {
+	background-color: #000000;
+	background-size: auto;
+	opacity: .7;
+	display: inline-block;
+	margin-left: 995px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+.button {
+	color: white;
+	border-radius: 7px;
+	background-image: linear-gradient(rgb(13, 47, 81),black);
+}
